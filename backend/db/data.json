@@ -1,0 +1,503 @@
+{
+  "users": [
+    {
+      "_id": "8d13cb47-c5f1-4dbb-8322-58bce4bd0882",
+      "name": "Arjun Sharma",
+      "email": "arjun@example.com",
+      "password": "$2a$10$Yov6vKJ7SxVgr6EdkRJldOvesVFUCbSPxruwgdHdBtw4sDedClCTi",
+      "avatar": "",
+      "bio": "Hobbyist photographer & tech enthusiast.",
+      "phone": "9876543210",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      },
+      "role": "user",
+      "isVerified": false,
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "wishlist": [
+        "b59a4087-425d-4960-8b7d-40eff7bec0ba",
+        "be4a9abd-b02a-4369-8902-e1086d4eb098",
+        "d2e5b7f6-9320-4a85-a530-d31c57046778",
+        "0816038d-9930-4b85-8f7d-2cedb383c325"
+      ],
+      "createdAt": "2026-03-03T07:00:07.244Z",
+      "updatedAt": "2026-03-03T07:14:47.752Z"
+    },
+    {
+      "_id": "faa7d845-8528-453f-9d47-283e2330a370",
+      "name": "Priya Patel",
+      "email": "priya@example.com",
+      "password": "$2a$10$Yov6vKJ7SxVgr6EdkRJldOvesVFUCbSPxruwgdHdBtw4sDedClCTi",
+      "avatar": "",
+      "bio": "Outdoor adventure lover & fitness coach.",
+      "phone": "9876501234",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      },
+      "role": "user",
+      "isVerified": false,
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "wishlist": [],
+      "createdAt": "2026-03-03T07:00:07.245Z",
+      "updatedAt": "2026-03-03T07:00:07.245Z"
+    },
+    {
+      "_id": "cd003c6a-decb-4f1c-89f7-9dd74bf4cc0b",
+      "name": "Rahul Gupta",
+      "email": "rahul@example.com",
+      "password": "$2a$10$Yov6vKJ7SxVgr6EdkRJldOvesVFUCbSPxruwgdHdBtw4sDedClCTi",
+      "avatar": "",
+      "bio": "DIY enthusiast and tools collector.",
+      "phone": "9811234567",
+      "location": {
+        "city": "Delhi",
+        "state": "Delhi",
+        "country": "India"
+      },
+      "role": "user",
+      "isVerified": false,
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "wishlist": [],
+      "createdAt": "2026-03-03T07:00:07.245Z",
+      "updatedAt": "2026-03-03T07:00:07.245Z"
+    }
+  ],
+  "listings": [
+    {
+      "_id": "84f4aba3-4d12-441b-af70-e0d8c71c559b",
+      "title": "Sony A7 III Mirrorless Camera",
+      "slug": "sony-a7-iii-mirrorless-camera-mma9d0pa",
+      "description": "Professional full-frame mirrorless camera, perfect for photography & videography. Includes 28-70mm kit lens, 2 batteries, charger, and carrying case.",
+      "category": "Cameras & Photography",
+      "pricePerDay": 1200,
+      "pricePerWeek": 7000,
+      "pricePerMonth": 24000,
+      "securityDeposit": 5000,
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600",
+          "alt": "Sony A7 III"
+        }
+      ],
+      "owner": "8d13cb47-c5f1-4dbb-8322-58bce4bd0882",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      },
+      "condition": "Like New",
+      "availability": {
+        "isAvailable": true,
+        "minRentalDays": 1,
+        "maxRentalDays": 30,
+        "unavailableDates": []
+      },
+      "features": [
+        "Full-frame sensor",
+        "24.2MP",
+        "4K Video",
+        "Image stabilization",
+        "Kit lens included"
+      ],
+      "tags": [
+        "sony",
+        "camera",
+        "mirrorless",
+        "photography",
+        "video"
+      ],
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "views": 0,
+      "totalRentals": 0,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2026-03-03T07:00:07.246Z",
+      "updatedAt": "2026-03-03T07:00:07.246Z"
+    },
+    {
+      "_id": "b59a4087-425d-4960-8b7d-40eff7bec0ba",
+      "title": "DJI Mini 3 Pro Drone",
+      "slug": "dji-mini-3-pro-drone-mma9d0pa",
+      "description": "Lightweight drone (249g) with 4K/60fps camera and 3-axis gimbal stabilization. No drone license needed! Perfect for travel, events, and aerial photography.",
+      "category": "Cameras & Photography",
+      "pricePerDay": 1500,
+      "pricePerWeek": 8500,
+      "pricePerMonth": null,
+      "securityDeposit": 8000,
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600",
+          "alt": "DJI Drone"
+        }
+      ],
+      "owner": "8d13cb47-c5f1-4dbb-8322-58bce4bd0882",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      },
+      "condition": "Good",
+      "availability": {
+        "isAvailable": true,
+        "minRentalDays": 1,
+        "maxRentalDays": 30,
+        "unavailableDates": []
+      },
+      "features": [
+        "4K/60fps",
+        "3-axis gimbal",
+        "34 min flight time",
+        "2 batteries included"
+      ],
+      "tags": [
+        "dji",
+        "drone",
+        "aerial",
+        "photography"
+      ],
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "views": 4,
+      "totalRentals": 0,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2026-03-03T07:00:07.246Z",
+      "updatedAt": "2026-03-03T07:00:07.246Z"
+    },
+    {
+      "_id": "be4a9abd-b02a-4369-8902-e1086d4eb098",
+      "title": "Trek Domane AL3 Road Bike",
+      "slug": "trek-domane-al3-road-bike-mma9d0pa",
+      "description": "Lightweight aluminum road bike, perfect for city rides and casual racing. Professionally serviced and ready to ride.",
+      "category": "Sports & Outdoors",
+      "pricePerDay": 350,
+      "pricePerWeek": 2000,
+      "pricePerMonth": null,
+      "securityDeposit": 2000,
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+          "alt": "Road Bike"
+        }
+      ],
+      "owner": "faa7d845-8528-453f-9d47-283e2330a370",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      },
+      "condition": "Good",
+      "availability": {
+        "isAvailable": true,
+        "minRentalDays": 1,
+        "maxRentalDays": 30,
+        "unavailableDates": []
+      },
+      "features": [
+        "21-speed",
+        "Alloy frame",
+        "Helmet included",
+        "Lock included"
+      ],
+      "tags": [
+        "bike",
+        "cycling",
+        "road bike",
+        "trek"
+      ],
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "views": 4,
+      "totalRentals": 0,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2026-03-03T07:00:07.246Z",
+      "updatedAt": "2026-03-03T07:00:07.246Z"
+    },
+    {
+      "_id": "0816038d-9930-4b85-8f7d-2cedb383c325",
+      "title": "Festool Cordless Drill Set",
+      "slug": "festool-cordless-drill-set-mma9d0pb",
+      "description": "Professional grade cordless drill set with 2 batteries. Perfect for home improvement and construction projects.",
+      "category": "Tools & Equipment",
+      "pricePerDay": 400,
+      "pricePerWeek": 2200,
+      "pricePerMonth": null,
+      "securityDeposit": 1500,
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600",
+          "alt": "Power Drill"
+        }
+      ],
+      "owner": "cd003c6a-decb-4f1c-89f7-9dd74bf4cc0b",
+      "location": {
+        "city": "Delhi",
+        "state": "Delhi",
+        "country": "India"
+      },
+      "condition": "Good",
+      "availability": {
+        "isAvailable": true,
+        "minRentalDays": 1,
+        "maxRentalDays": 30,
+        "unavailableDates": []
+      },
+      "features": [
+        "18V Li-ion",
+        "2 batteries",
+        "Carry case",
+        "25 drill bits"
+      ],
+      "tags": [
+        "drill",
+        "power tools",
+        "festool",
+        "cordless"
+      ],
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "views": 2,
+      "totalRentals": 0,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2026-03-03T07:00:07.247Z",
+      "updatedAt": "2026-03-03T07:00:07.247Z"
+    },
+    {
+      "_id": "80afc0bf-c54e-4ecd-a3ba-d3554981f446",
+      "title": "Yamaha FZ-S Motorcycle",
+      "slug": "yamaha-fz-s-motorcycle-mma9d0pb",
+      "description": "Fuel-injected street commuter motorcycle. Excellent city fuel economy. Valid license required. Includes helmet.",
+      "category": "Vehicles",
+      "pricePerDay": 600,
+      "pricePerWeek": 3500,
+      "pricePerMonth": 12000,
+      "securityDeposit": 3000,
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1558618047-3c8c69c01cc7?w=600",
+          "alt": "Motorcycle"
+        }
+      ],
+      "owner": "faa7d845-8528-453f-9d47-283e2330a370",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      },
+      "condition": "Good",
+      "availability": {
+        "isAvailable": true,
+        "minRentalDays": 1,
+        "maxRentalDays": 30,
+        "unavailableDates": []
+      },
+      "features": [
+        "Fuel injection",
+        "149cc",
+        "License required",
+        "Helmet included",
+        "Full tank"
+      ],
+      "tags": [
+        "motorcycle",
+        "yamaha",
+        "bike",
+        "two-wheeler"
+      ],
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "views": 0,
+      "totalRentals": 0,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2026-03-03T07:00:07.247Z",
+      "updatedAt": "2026-03-03T07:00:07.247Z"
+    },
+    {
+      "_id": "9a0bb712-b899-4a91-b939-5137914f8f56",
+      "title": "Bose QuietComfort 45 Headphones",
+      "slug": "bose-quietcomfort-45-headphones-mma9d0pb",
+      "description": "Premium ANC headphones with 24-hour battery, carrying case, and charging cable. Perfect for work, travel, and WFH setups.",
+      "category": "Electronics",
+      "pricePerDay": 300,
+      "pricePerWeek": 1600,
+      "pricePerMonth": null,
+      "securityDeposit": 2000,
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600",
+          "alt": "Headphones"
+        }
+      ],
+      "owner": "8d13cb47-c5f1-4dbb-8322-58bce4bd0882",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      },
+      "condition": "Like New",
+      "availability": {
+        "isAvailable": true,
+        "minRentalDays": 1,
+        "maxRentalDays": 30,
+        "unavailableDates": []
+      },
+      "features": [
+        "Active Noise Cancellation",
+        "24hr battery",
+        "Foldable",
+        "USB-C charging"
+      ],
+      "tags": [
+        "bose",
+        "headphones",
+        "anc",
+        "audio"
+      ],
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "views": 0,
+      "totalRentals": 0,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2026-03-03T07:00:07.247Z",
+      "updatedAt": "2026-03-03T07:00:07.247Z"
+    },
+    {
+      "_id": "01cbbaf9-b940-4d0a-8099-80467108e05f",
+      "title": "Camping Tent — 4-Person Waterproof",
+      "slug": "camping-tent-4-person-waterproof-mma9d0pc",
+      "description": "Double-wall, waterproof 4-person tent with UV protection. Includes rain fly, tent poles, stakes, and carry bag.",
+      "category": "Sports & Outdoors",
+      "pricePerDay": 450,
+      "pricePerWeek": 2500,
+      "pricePerMonth": null,
+      "securityDeposit": 1000,
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600",
+          "alt": "Camping Tent"
+        }
+      ],
+      "owner": "cd003c6a-decb-4f1c-89f7-9dd74bf4cc0b",
+      "location": {
+        "city": "Delhi",
+        "state": "Delhi",
+        "country": "India"
+      },
+      "condition": "Good",
+      "availability": {
+        "isAvailable": true,
+        "minRentalDays": 1,
+        "maxRentalDays": 30,
+        "unavailableDates": []
+      },
+      "features": [
+        "4-person capacity",
+        "3000mm waterproof",
+        "UV protection",
+        "Easy setup (10 min)"
+      ],
+      "tags": [
+        "tent",
+        "camping",
+        "outdoor",
+        "trekking",
+        "adventure"
+      ],
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "views": 0,
+      "totalRentals": 0,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2026-03-03T07:00:07.248Z",
+      "updatedAt": "2026-03-03T07:00:07.248Z"
+    },
+    {
+      "_id": "d2e5b7f6-9320-4a85-a530-d31c57046778",
+      "title": "Apple MacBook Pro M2 14\"",
+      "slug": "apple-macbook-pro-m2-14-mma9d0pc",
+      "description": "High-performance laptop with Apple M2 chip, 16GB RAM, 512GB SSD. Ideal for video editing, coding, and creative work. Charger included.",
+      "category": "Electronics",
+      "pricePerDay": 2000,
+      "pricePerWeek": 11000,
+      "pricePerMonth": 38000,
+      "securityDeposit": 10000,
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600",
+          "alt": "MacBook Pro"
+        }
+      ],
+      "owner": "faa7d845-8528-453f-9d47-283e2330a370",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      },
+      "condition": "Like New",
+      "availability": {
+        "isAvailable": true,
+        "minRentalDays": 1,
+        "maxRentalDays": 30,
+        "unavailableDates": []
+      },
+      "features": [
+        "M2 chip",
+        "16GB RAM",
+        "512GB SSD",
+        "18hr battery",
+        "Charger included"
+      ],
+      "tags": [
+        "macbook",
+        "laptop",
+        "apple",
+        "m2",
+        "computer"
+      ],
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "views": 2,
+      "totalRentals": 0,
+      "isActive": true,
+      "isFeatured": false,
+      "createdAt": "2026-03-03T07:00:07.248Z",
+      "updatedAt": "2026-03-03T07:00:07.248Z"
+    }
+  ],
+  "bookings": []
+}

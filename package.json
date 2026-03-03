@@ -1,0 +1,12 @@
+{
+    "name": "rentoquick",
+    "version": "1.0.0",
+    "description": "RentoQuick P2P Rental Marketplace - MERN Stack",
+    "scripts": {
+        "dev:backend": "cd backend && /usr/bin/npm run dev",
+        "dev:frontend": "cd frontend && /usr/bin/npm run dev",
+        "seed": "cd backend && /usr/bin/npm run seed",
+        "install:all": "/usr/bin/npm install --prefix backend && /usr/bin/npm install --prefix frontend"
+    },
+    "author": "RentoQuick"
+}
