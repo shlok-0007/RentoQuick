@@ -1,0 +1,48 @@
+{
+    "name": "rentoquick-backend",
+    "version": "1.0.0",
+    "description": "RentoQuick P2P Rental Marketplace Backend",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "seed": "node src/utils/seed.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "bullmq": "^5.30.0",
+        "cloudinary": "^2.10.0",
+        "compression": "^1.7.5",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.4.5",
+        "express": "^4.18.3",
+        "express-rate-limit": "^7.2.0",
+        "google-auth-library": "^10.7.0",
+        "helmet": "^7.1.0",
+        "ioredis": "^5.4.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongodb": "^7.2.0",
+        "mongoose": "^7.8.3",
+        "morgan": "^1.10.0",
+        "multer": "^2.1.1",
+        "multer-storage-cloudinary": "^4.0.0",
+        "nodemailer": "^9.0.1",
+        "openai": "^4.78.0",
+        "razorpay": "^2.9.6",
+        "slugify": "^1.6.9",
+        "socket.io": "^4.8.3",
+        "uuid": "^14.0.1",
+        "web-push": "^3.6.7",
+        "zod": "^4.4.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    },
+    "overrides": {
+        "zod": "$zod",
+        "multer-storage-cloudinary": {
+            "cloudinary": "$cloudinary"
+        }
+    }
+}
