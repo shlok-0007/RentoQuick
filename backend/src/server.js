@@ -10,11 +10,16 @@ const http = require('http');
 
 const connectDB = require('./db/mongodb');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 // Routes
 =======
 // ... (your routes imports remain the same)
 >>>>>>> 352daed (Update server.js for production deployment and CORS fix)
+=======
+
+// Routes
+>>>>>>> 2b554a6 (modified for production)
 const authRoutes = require('./routes/auth');
 const listingRoutes = require('./routes/listings');
 const bookingRoutes = require('./routes/bookings');
@@ -32,6 +37,7 @@ const productRoutes = require('./routes/products');
 const aiRoutes = require('./routes/ai');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const { init: initAiService } = require('./services/aiSuggestService');
 const { initVerificationQueue } = require('./services/verificationQueue');
 =======
@@ -39,6 +45,10 @@ const { init: initAiService, getCircuitStats } = require('./services/aiSuggestSe
 const { initVerificationQueue, closeVerificationQueue } = require('./services/verificationQueue');
 const { closeRedis } = require('./services/redisCache');
 >>>>>>> 352daed (Update server.js for production deployment and CORS fix)
+=======
+const { init: initAiService } = require('./services/aiSuggestService');
+const { initVerificationQueue } = require('./services/verificationQueue');
+>>>>>>> 2b554a6 (modified for production)
 const { errorHandler } = require('./middleware/errorHandler');
 const { initSocket } = require('./utils/notifications');
 
@@ -61,9 +71,12 @@ app.use(helmet({
             styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
             imgSrc: ["'self'", "data:", "https://res.cloudinary.com", "https://serpapi.com", "https://*"],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             // Updated to allow your production URL and secure web sockets
 >>>>>>> 352daed (Update server.js for production deployment and CORS fix)
+=======
+>>>>>>> 2b554a6 (modified for production)
             connectSrc: ["'self'", "https://res.cloudinary.com", "https://serpapi.com", "https://generativelanguage.googleapis.com", PROD_URL, "wss://rentoquick-7hax.onrender.com", "ws://rentoquick-7hax.onrender.com"],
             fontSrc: ["'self'", "https://fonts.gstatic.com"],
         },
@@ -71,15 +84,20 @@ app.use(helmet({
 }));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // ── CORS ──────────────────────────────────────────────────────────────────
 =======
 // CORS: Now uses the environment variable or defaults
 >>>>>>> 352daed (Update server.js for production deployment and CORS fix)
+=======
+// ── CORS ──────────────────────────────────────────────────────────────────
+>>>>>>> 2b554a6 (modified for production)
 app.use(cors({
     origin: process.env.CLIENT_URL || ['http://localhost:5173', 'http://localhost:3000', PROD_URL],
     credentials: true,
 }));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 // ── Middlewares ───────────────────────────────────────────────────────────
 app.use(compression());
@@ -107,6 +125,10 @@ app.use(compression({
 
 // ── Body parser ───────────────────────────────────────────────────────────
 >>>>>>> 352daed (Update server.js for production deployment and CORS fix)
+=======
+// ── Middlewares ───────────────────────────────────────────────────────────
+app.use(compression());
+>>>>>>> 2b554a6 (modified for production)
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
@@ -147,6 +169,7 @@ if (process.env.NODE_ENV === 'production') {
 app.use(errorHandler);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // ── Start server ──────────────────────────────────────────────────────────
 server.listen(PORT, async () => {
     console.log(`\n🚀 Server running on port ${PORT}`);
@@ -156,6 +179,12 @@ server.listen(PORT, async () => {
 server.listen(PORT, async () => {
     console.log(`\n🚀 RentoQuick API running on port ${PORT}`);
 >>>>>>> 352daed (Update server.js for production deployment and CORS fix)
+=======
+// ── Start server ──────────────────────────────────────────────────────────
+server.listen(PORT, async () => {
+    console.log(`\n🚀 Server running on port ${PORT}`);
+    console.log(`🌍 Mode: ${process.env.NODE_ENV || 'development'}`);
+>>>>>>> 2b554a6 (modified for production)
     initAiService();
     initVerificationQueue();
 });
